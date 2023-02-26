@@ -6,5 +6,6 @@
   "Главная": "Main",
   "О нас": "About us",
   "shared/lib/classNames/classNames": "shared/lib/classNames/classNames",
-  "t": "t"
+  "t": "t",
+  "react/jsx-filename-extension": "react/jsx-filename-extension"
 }
