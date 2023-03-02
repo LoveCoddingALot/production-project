@@ -5,7 +5,7 @@
   "Язык": "English",
   "Главная": "Main",
   "О нас": "About us",
-  "shared/lib/classNames/classNames": "shared/lib/classNames/classNames",
-  "t": "t",
-  "react/jsx-filename-extension": "react/jsx-filename-extension"
+  "Страница не найдена": "Page not found",
+  "('Произошла непредвиденная ошибка')": "('Произошла непредвиденная ошибка')",
+  "('Обновить страницу')": "('Обновить страницу')"
 }
