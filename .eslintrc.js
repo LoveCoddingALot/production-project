@@ -9,8 +9,6 @@ module.exports = {
         'plugin:i18next/recommended',
         'standard-with-typescript'
     ],
-    overrides: [
-    ],
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
@@ -38,7 +36,7 @@ module.exports = {
         '@typescript-eslint/no-floating-promises': 'off',
         '@typescript-eslint/quotes': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
+        'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }],
         '@typescript-eslint/no-unused-vars': 'warn'
     },
     globals: {
