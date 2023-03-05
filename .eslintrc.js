@@ -10,10 +10,13 @@ module.exports = {
         'standard-with-typescript'
     ],
     parserOptions: {
+        ecmaFeatures: {
+            jsx: true
+        },
         ecmaVersion: 'latest',
-        sourceType: 'module',
-        project: ['./tsconfig.json']
+        sourceType: 'module'
     },
+    parser: '@typescript-eslint/parser',
     plugins: [
         'react',
         '@typescript-eslint',
