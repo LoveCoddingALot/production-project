@@ -4,7 +4,6 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import { AppLink, AppLinkTheme } from './AppLink'
 import { ThemeDecorator } from '../../config/storybook/ThemeDecorator/ThemeDecorator'
 import { Theme } from '../../../app/providers/ThemeProviders'
-import { OutlineDark } from '../Button/Button.stories'
 
 export default {
     title: 'shared/AppLink',
