@@ -14,9 +14,9 @@ module.exports = {
             jsx: true
         },
         ecmaVersion: 'latest',
-        sourceType: 'module'
+        sourceType: 'module',
+        parser: '@typescript-eslint/parser'
     },
-    parser: '@typescript-eslint/parser',
     plugins: [
         'react',
         '@typescript-eslint',
